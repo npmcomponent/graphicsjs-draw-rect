@@ -13,9 +13,7 @@
 
 ```js
 var drawRect = require('draw-rect');
-var canvas = document.createElement('canvas');
-canvas.width = 400;
-canvas.height = 400;
+var canvas = document.querySelector('canvas');
 var ctx = canvas.getContext('2d');
 drawRect(ctx, {
   x: 10,
